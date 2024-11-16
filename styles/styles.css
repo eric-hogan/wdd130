@@ -1,6 +1,11 @@
 /* this is a comment in CSS */
+
+:root{
+    main-color: darkblue;
+}
+
 nav{
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -13,7 +18,7 @@ nav a {
 main{max-width: 840px;
 }
 h1{
-    color: darkblue;
+    color: var(--main-color);
 }
 
 main img {
