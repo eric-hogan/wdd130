@@ -1,7 +1,7 @@
 /* this is a comment in CSS */
 
 :root{
-    main-color: darkblue;
+    --main-color: darkblue;
 }
 
 nav{
