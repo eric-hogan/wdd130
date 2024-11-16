@@ -1,5 +1,9 @@
 /* this is a comment in CSS */
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --main-color: darkblue;
 }
@@ -18,10 +22,11 @@ nav a {
 main{max-width: 840px;
 }
 h1{
+    text-align: center;
     color: var(--main-color);
 }
 
-main img {
+main img {float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -33,10 +38,23 @@ main p {
     padding: 0;
 }
 
-aside{width: 600px; margin-left: 0; border: 10px; padding: 20px; background-color:rgb(39, 179, 95); color: black;
+aside{width: 50%; }
+aside h2{
+    position: relative;
+    top: 30px;
+    left: 60px;
+    color: lavenderblush;
 }
 aside img {width: 200px; height: auto;
 }
 aside p {padding: 0;
 }
 footer{margin-top: 20px; border-top: 10px; text-align: center;}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0 / .1);
+    background-color:rgba(63, 148, 85, 0.411);
+    color: black;
+}
