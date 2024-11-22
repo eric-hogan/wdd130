@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rock+Salt&display=swap');
+
+
+:root{
+    --primary_color: #F9FBFA;
+    --secondary_color:#13654F;
+    --accent1-color: #6DADCD;
+    --accent2-color: #107C62;
+}
+
+.content{
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Rock Salt', Georgia, 'Times New Roman', serif;
+    color: var(--primary_color);
+    font-size: 5vw;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 3rem;
+    
+}
+
+article{
+    position: absolute;
+    top: 40%;
+    background-color: #13654F;
+    opacity: 90%;
+    font-size: 1.75vw;
+}
+
+article img {
+    float: right;
+    height: auto;
+    max-width: 25%;
+}
+
+article p {
+    
+}
+
+p{
+    font-family: 'PT Serif', Georgia, 'Times New Roman';
+}
+
+h2{
+    font-family: 'Rock Salt', Georgia, 'Times New Roman', serif;
+    color: var(--accent2-color);
+
+}
+
+.social_links{
+    text-decoration: none;
+}
