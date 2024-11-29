@@ -4,25 +4,54 @@
     box-sizing: border-box;
 }
 :root{
-    --main-color: darkblue;
+    --main-color: #004444;
 }
 
 nav{
+    display: flex;
     background-color: var(--main-color);
-    padding: 10px;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: #FFFFFF;
+    background-color: #004444;
     display: block;
-    padding: 20px;
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 700;
 }
 
-main{max-width: 840px;
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto ;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside{
+    width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    margin: 1rem;
+}
+
 h1{
     text-align: center;
     color: var(--main-color);
+    border-bottom: dashed ;
 }
 
 main img {float: right;
@@ -37,7 +66,10 @@ main p {
     padding: 0;
 }
 
-aside{width: 20em; }
+aside{
+    width: 20em;
+    background-color: grey;
+}
 aside h2{
     position: relative;
     top: 30px;
