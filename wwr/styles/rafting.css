@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rock+Salt&display=swap);
 
 :root{
     --primary_color: #F9FBFA;
@@ -5,6 +6,7 @@
     --accent1-color: #6DADCD;
     --accent2-color: #107C62;
 }
+
 
 
 
