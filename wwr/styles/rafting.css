@@ -175,6 +175,142 @@ footer{
 .social_links{
     text-decoration: none;
 }
+
+.info{
+    display: grid;
+    background-color: var(--accent2-color);
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-top: solid var(--accent1-color) 5px ;
+}
+
+.column1{
+    justify-content: center;
+    text-align: center;
+}
+.column3{
+    justify-content: center;
+    align-items: center;
+    border: solid black 0px;
+    margin: 50px;
+}
+.contact{
+    grid-column: 1/3;
+    width: 100%;
+    margin:5px;
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: center;
+    color: var(--primary_color);
+    
+}
+.map-container{
+    width: 100%;
+    padding-left: 20px;
+    grid-column: 3/6;
+    ;
+    
+}
+.employees{
+    display: grid;
+    background-color: var(--accent2-color);
+    margin: 0 auto;
+
+}
+.employees figure{
+    grid-row: 1;
+    
+    
+}
+.employees img{
+    display: flex;
+    justify-content: space-around; 
+    max-height: 50%;
+    height: auto;
+    padding-top: 1rem;
+    align-content: center;
+    padding-top: 100px;
+}
+.employees figcaption{
+    grid-row-start: 3;
+   justify-content: space-evenly; 
+   font-size: 1.1em;
+   color: var(--primary_color);
+}
+
+.form-container{
+    background-color: var(--accent2-color);
+    padding-bottom: 100px;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    
+    padding: 1rem;
+    border: solid 5px var(--accent1-color);   
+    border-radius: 15px;
+    background-color: var(--primary_color);
+    display: grid;
+    
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    align-self: center;
+    justify-content: center;
+}
+
+legend{
+    padding: .5rem;
+    color: navy;
+    font-size: 1.2em;
+    text-align:left;
+}
+
+label{
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input, select {
+    padding: .5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+textarea{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    width: 35px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button{
+    margin: 1rem;
+    border-radius: .5rem;
+    border: none;
+    padding: .5rem;
+    width: 100px;
+    background-color: var(--accent1-color);
+    color: white;
+    font-size: 1.1rem;
+    width: 200px;
+    text-align: center;
+}
+
+
 footer p{
  
     padding-bottom: 30px;
