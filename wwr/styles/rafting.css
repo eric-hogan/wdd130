@@ -268,7 +268,7 @@ fieldset{
 
 legend{
     padding: .5rem;
-    color: navy;
+    color: var(--accent2-color);
     font-size: 1.2em;
     text-align:left;
 }
@@ -303,13 +303,18 @@ button{
     border: none;
     padding: .5rem;
     width: 100px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary_color);
     color: white;
     font-size: 1.1rem;
     width: 200px;
     text-align: center;
 }
 
+.wireframe a{
+    text-decoration: none;
+    color: var(--primary_color);
+
+}
 
 footer p{
  
