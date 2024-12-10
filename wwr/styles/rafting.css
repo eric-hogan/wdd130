@@ -47,7 +47,7 @@ header{
 }
 
 h1{
-    font-family: 'Rock Salt', Georgia, 'Times New Roman', serif;
+   
     color: var(--primary_color);
     font-size: 5vw;
 }
@@ -58,6 +58,7 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     margin-top: 4rem;
+    font-family: 'Rock Salt', Georgia, 'Times New Roman', serif;
     
 }
 
