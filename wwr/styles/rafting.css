@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Rock+Salt&display=swap);
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 :root{
     --primary_color: #F9FBFA;
     --secondary_color:#13654F;
     --accent1-color: #6DADCD;
-    --accent2-color: #107C62;
+    --accent2-color: #074034;
 }
 
 
@@ -44,11 +46,14 @@ header{
     height: auto;
 }
 
-h1 {
-    position: absolute;
+h1{
     font-family: 'Rock Salt', Georgia, 'Times New Roman', serif;
     color: var(--primary_color);
     font-size: 5vw;
+}
+
+.hero h1 {
+    position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -176,6 +181,19 @@ footer{
     text-decoration: none;
 }
 
+.contact-banner{
+    background-color: var(--accent2-color);
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    border: var(--accent1-color) 2px solid;
+}
+
+.contact-banner h1{
+    color:var(--primary_color);
+    font-family: "caveat", 'Times New Roman', Times, serif;
+}
+
 .info{
     display: grid;
     background-color: var(--accent2-color);
@@ -212,6 +230,11 @@ footer{
     grid-column: 3/6;
     ;
     
+}
+
+iframe{
+    width: 50%;
+    height: 300px;
 }
 .employees{
     display: grid;
