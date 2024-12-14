@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
     <meta name="description" content="The main landing page for White Water LLC">
     <meta name="author" content="Eric Hogan">
     <title>White Water LLC| Home</title>
@@ -24,50 +23,55 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="https://dummyimage.com/600x300/000/fff" alt="Man standing on a raft">           
-            <h1> Home</h1>
+        <div class="index_hero">
+            <img src="images/homebanner.jpg" alt="Man standing on a raft">           
+            <h1>Adventure Awaits!</h1>
             <article>
-                
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores explicabo fugiat exercitationem totam earum tenetur magnam ut cumque alias maxime aspernatur quo nihil recusandae voluptas, blanditiis corrupti in quisquam soluta. Atque veniam possimus nostrum? Consectetur, atque. Officiis laborum ab quis unde consequatur iste quia molestias, qui similique, iure aut quae.</p>
+                <p>Experience the thrill of whitewater rafting! Navigate roaring rapids, breathtaking scenery, and unforgettable adventures with our expert guides. Perfect for adrenaline seekers and nature lovers alike, our rafting trips are safe, fun, and tailored for all skill levels. Book your adventure today and make memories that will last a lifetime—your ultimate river journey awaits!
+                </p>
             </article>
         </div>
-        <section>
-            <p>Experience the thrill of whitewater rafting! Navigate roaring rapids, breathtaking scenery, and unforgettable adventures with our expert guides. Perfect for adrenaline seekers and nature lovers alike, our rafting trips are safe, fun, and tailored for all skill levels. Book your adventure today and make memories that will last a lifetime—your ultimate river journey awaits!
-            </p>
-            <nav>Are you ready? Book your trip
-                <a href="trips.html">here!</a>
-            </nav>
+        <aside class="booking_bar">
+            <nav>Are you ready? Book your trip now!!
+                <a href="trips.html">Trips and Booking</a>
+             </nav>
+         </aside>
+        <div class="form-container index_form">
+            <form>
+                <h2>Interested in White Water Rafting? Sign-up for our newsletter!</h2>
+                <fieldset class="column1">
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label>Name:
+                            <input type="text" id="fullname" name="fullname"> 
+                        </label>
+                    </div>
+                    <div class="form-item column2">
+                        <label>Email:
+                            <input type="text" id="useremail" name="useeremail">
+                        </label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="form-item column1">
+                        <label>Please subscribe me to the monthly newsletter
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </label>
+                    </div>
+                </fieldset>
+                <button type="submit">Sign-up</button>
+            </form>
+        </div>
+        <section class="home_photos"> 
+            <figure class="homepicture1">
+                <a href="about.html"><img src="images/home.jpg" alt="Image linking the user to the about page"></a>
+                <figcaption>Learn about the history of our small family owned company</figcaption>
+            </figure>
+            <figure class="homepicture2">
+                <a href="trips.html"><img src="images/home2.jpg" alt="image linking the user to the trips page"></a>
+                <figcaption>Click here if you would like to see informations about our trips</figcaption>
+            </figure>
         </section>
-        <section> 
-            <img src="https://dummyimage.com/300x200/000/fff" alt="placeholder">
-            <img src="https://dummyimage.com/300x200/000/fff" alt="placeholder">
-        </section>
-    </section>
-    <div class="form-container">
-        <form>
-            <fieldset class="column1">
-                <legend>Contact Information</legend>
-                <div class="form-item column2">
-                    <label>Name:
-                        <input type="text" id="fullname" name="fullname"> 
-                    </label>
-                </div>
-                <div class="form-item column2">
-                    <label>Email:
-                        <input type="text" id="useremail" name="useeremail">
-                    </label>
-                </div>
-            </fieldset>
-                <div class="form-item column1">
-                    <label>Please subscribe me to the monthly newsletter
-                        <input type="checkbox" id="subscribe" name="subscribe">
-                    </label>
-                </div>
-            </fieldset>
-            <button type="submit">Sign-up</button>
-        </form>
-        <section>
     </main>
     <footer>
         <nav class="social"> 
