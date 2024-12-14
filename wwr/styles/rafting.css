@@ -12,6 +12,8 @@
 
 
 
+
+
 header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -337,6 +339,116 @@ button{
 
 }
 
+
+.trip_hero{
+position: relative;
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+background-color: var(--accent1-color);
+grid-template-rows: 1fr 1fr;
+max-height: 700px;
+margin: 0 auto;
+justify-content: center;
+align-content: center;
+padding-top: 10px;
+}
+
+.trip_hero h1{
+    position: absolute;
+    grid-row: 1;
+    grid-column: 2;
+    font-size: 4em;
+    margin-left: 1.5rem;
+    padding: 5px;
+    background-color: var(--accent2-color);
+    opacity: 80%;
+}  
+
+.trip_hero img{
+    display: block;
+    max-height: 800px;
+    grid-column: 2;
+    display: inline;
+   
+}
+
+.trip_hero article{
+    grid-column: 2;
+    width: 500px;
+    margin-left: 300px;
+    background-color: var(--secondary_color);
+    padding: 10px;
+}
+
+.trip_info{
+    display: grid;
+    margin: 30px;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.trip1{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: var(--secondary_color);
+    width: 1000px;
+    padding-top: 10px;
+
+}
+.trip1 img{
+    grid-row: 1;
+    max-height: 400px;
+}
+
+.trip1 p{
+    width: 300px;
+    font-size: 1.1em;
+    color: var(--primary_color);
+}
+
+.trip2{
+    justify-content: space-evenly;
+    display: flex;
+    border: dotted black 1px;
+    background-color: var(--primary_color);
+    width: 1000px
+}
+
+.trip2 p{
+    width: 300px;
+    font-size: 1.1em;
+    
+}
+
+.trip2 img{
+    grid-row:2;
+    width: 600px;
+    align-self: center;
+
+    
+}
+
+.trip3{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: var(--secondary_color);
+    width: 1000px
+
+}
+.trip3 img{
+    grid-row: 1;
+    width: 600px;
+}
+
+.trip3 p{
+    width: 300px;
+    font-size: 1.1em;
+    color: var(--primary_color);
+    padding: 10px;
+}
+
+
 footer p{
  
     padding-bottom: 30px;
@@ -344,3 +456,31 @@ footer p{
     align-self: center;
     color: var(--primary_color);
 }
+
+.pricing{
+    display: grid;
+    justify-content: center;
+    font-size: 1.4em;
+    background-color: var(--accent1-color);
+    align-items: center;
+    width: 40%;
+    margin-left: 30%;
+    
+}
+
+.pricing tr{
+    width: 300px;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+
+}
+
+aside{
+display: grid;
+justify-content: center;
+align-content: center;
+font-size: 1.5em;
+font-weight: bold;
+}
+
